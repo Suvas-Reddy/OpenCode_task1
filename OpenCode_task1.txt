@@ -1,0 +1,29 @@
+Q1.Explain very briefly the difference between Git and Github.
+Ans. Git is a version control system. It is used to track changes made in a file.
+     It was developed using Unix. It uses a command line interface instead of a GUI.
+     It tracks the history of a file.
+
+     Github is a web based interface used to store git repositories.
+     It functions similar to git, but it uses a GUI instead of CLI.
+     It even provides other tools to manage a project.
+
+Q2.Explain very briefly any 5 git commands.
+Ans. (1)git init: converts a file into git repository.
+               *It creates a hidden file which tracks the changes made to the folder/project.
+     (2)git clone(url): It is used to retrive a repository from a host location.
+                     *It is used to add the forked repository from github to git.
+     (3)git status: It displays the state of working directory.
+                 *It shows the list of files whose changes have not been commited.
+     (4)git add:The untracked files/changes are added to a staging area.
+     (5)git log: It is used to view the changes made in a git repository.
+              *shows the history/ all changes made to the file/project that have been commited.
+     (6)git restore --staged filename: removes the file from staging area.
+     (7)git reset commit_id: all the commits above this commit are unstaged and the older version is restored.
+     (8)git branch branchname: It creates a new branch.
+     (9)git push: It is used to push the commits from git to github.
+
+Q3.How to make a pull request.
+Ans. A pull request is made to add the changes made by an individual to the main branch of the github repository.
+     *The repository in which the pull request is to be made is cloned in git using git clone (url).
+     *The file which is to be added to github is added to the staging area and it is commited.(git add filename,git commit -m" ")
+     *THen the pull request is made by using the command git push origin/upstream branchname.
