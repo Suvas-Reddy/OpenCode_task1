@@ -24,6 +24,8 @@ Ans. (1)git init: converts a file into git repository.
 
 Q3.How to make a pull request.
 Ans. A pull request is made to add the changes made by an individual to the main branch of the github repository.
+     *The repository is forked to GitHub.
      *The repository in which the pull request is to be made is cloned in git using git clone (url).
+     *A new branch is created using git switch branchname.
      *The file which is to be added to github is added to the staging area and it is commited.(git add filename,git commit -m" ")
      *THen the pull request is made by using the command git push origin/upstream branchname.
